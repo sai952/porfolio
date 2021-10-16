@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text&display=swap');
+:root{
+    --primary: #434CCC;
+    --background: #F2F2F2;
+    --Text_White: #FFFFFF;
+
+
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.logo{
+	color:white;
+	font-size: 50px;
+	padding-left: 100px;
+}
+.menu a{
+	color:white;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin: 5px;
+	font-size: 20px;
+	
+}
+.menu{
+	margin-right: 100px;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.c-btn{
+	border: none;
+	outline: none;
+	color: white;
+    background: #F1B505;
+	padding: 10px 30px;
+	margin-top: 20px;
+
+	
+
+}
+.b-btn{
+
+	border: blue;
+	outline: none;
+	color:white;
+    background:none;
+	padding: 10px 20px;
+	margin-top: 20px;
+	font-size: 20px;
+
+}
+
+.menu a:hover{
+	background: red;
+	transition: 0.4;
+}
+.text{
+	color:white;
+	margin-top: 100px;
+	margin-left: 100px;
+	max-width: 500px;
+}
+.text h1{
+	
+	font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 80px;
+}
+.text p{
+	
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.text h6{
+	font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+	text-transform: uppercase;
+	
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background: url(./clip-1.png);
+	background-color: blue;
+	background-size: 50% 100%;
+	background-position: right;
+	background-repeat: no-repeat;
+	
+	
+}
+#saikat{
+	padding: 100px 50px;
+	background:  #FFDD78;
+}
+.section-info{
+	font-weight: bold;
+	text-align: center;
+	font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+	padding: 5px 10px;
+	margin-top: 5px;
+}
+.saikat-row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.saikat-box{
+	flex-basis: 25%;
+	background: white;
+	text-align: center;
+	box-shadow: 2px 3px 5px gray;
+	padding: 20px;
+	margin-top: 20px;
+}
+.saikat-box:hover{
+	background: #e74c3c;
+	color: white;
+	transition: 0.4s;
+
+}
+.saikat-box img{
+	width: 186px;
+}
+.arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+  .right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	
+	
+  }
+  .container{
+	font-weight: bold;
+	text-align: center;
+	font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+	padding: 5px 10px;
+	margin-top: 5px;
+
+  }
+  .container p{
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 32px;
+	
+	
+	text-align: center
+  }
+  .container h6{
+	font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+	text-transform: uppercase;
+
+  }
+  .a{
+	color:black;
+	margin-top: 50px;
+	margin-left: 80px;
+	max-width: 100px;
+	text-decoration: right;
+	display: flex;
+	font-size: 30px;
+	
+	
+	
+
+  }
+  .b h2{
+	font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+	padding: 10px 20px;
+	margin: 5px;
+  }
+  .b p{
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 10px 20px;
+	margin: 5px;
+  }
+  .c{
+	color:black;
+	margin-top: 100px;
+	margin-left: 300px;
+	max-width: 100px;
+	text-decoration: right;
+	display: flex;
+  }
+  .d h3{
+	font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+	padding: 10px 20px;
+	margin: 5px;
+  }
+  .d p{
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 10px 20px;
+	margin: 5px;
+  }
